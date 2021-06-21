@@ -9,9 +9,9 @@ DREAM_CONFIG = {'basket_pool_type': 'max', # 'avg'
                 'rnn_type': 'RNN_RELU',  #'RNN_TANH',#'GRU',#'LSTM',# 'RNN_RELU',
                 'dropout': 0.5,
                 # 'num_product': 49688 + 1, # padding idx = 0
-                'num_product': 49688 + 1 + 1, 
+                'num_product': 4070+ 1 + 1, 
                 # 49688 products, padding idx = 0, none idx = 49689, none idx indicates no products
-                'none_idx': 49689,
+                'none_idx': 4071,
                 'embedding_dim': 128, # 128
                 'cuda': True, # True,
                 'clip': 200,  # 0.25
